@@ -400,7 +400,7 @@ if (typeof Sound == "undefined") {
   ]]]]</tw-passagedata><tw-passagedata pid="4" name="Старт" tags="start" position="1094,299" size="100,100">{&lt;script&gt; Sound.play(1);&lt;/script&gt;}\
 (align: &quot;=&gt;&lt;=&quot;)+(box:&quot;=XXX=&quot;)+(text-size:1)[=\
 \
-(link-goto: &quot;Новая игра&quot;, &quot;001&quot;)
+(link-fullscreen: &quot;Новая игра&quot;, &quot;(goto:&#39;001&#39;)&quot;)
 (link:&quot;Продолжить&quot;)[(load-game:&quot;Slot A&quot;)]
 \
 (replace:?sidebar)[]\
@@ -1318,7 +1318,8 @@ position: fixed;
 	 (if: $sexmaster is $devushki)[ (максимум)] (if: $vip is 0)[(требуется откртие VIP комнаты)]&lt;br&gt;
 мастерицы полутьмы: +1, капитал: +350$, отношения с женой: вероятность ухудшения]\
 		]]\
-]]</tw-passagedata><tw-passagedata pid="12" name="001" tags="" position="1092,430" size="100,100">Жизнь в заключении теперь в прошлом.
+]]</tw-passagedata><tw-passagedata pid="12" name="001" tags="" position="1090.3333333333333,430" size="100,100">{&lt;script&gt; Sound.play(1);&lt;/script&gt;}\
+Жизнь в заключении теперь в прошлом.
 
 Об услуге, оказанной мной Дону, не позабыли. Жена и дочь все это время жили в достатке и ни в чем не нуждались.
 
